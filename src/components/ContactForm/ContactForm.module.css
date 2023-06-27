@@ -1,0 +1,13 @@
+.btn{
+    margin-top: 20px;
+    padding: 5px 10px;
+}
+label{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 5px 5px;
+    width: 200px;
+}
