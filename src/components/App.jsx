@@ -22,6 +22,7 @@ class App extends Component {
       name,
       number,
     };
+    this.state.contacts.find(option => option.name === contact.name)? alert(`${contact.name} is already in contacts`):
     this.setState(({ contacts }) => ({
       contacts: [contact, ...contacts],
     }));
